@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProgressBar_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gwy-ep-oBR" customClass="ProgressBar" customModule="ProgressBar_Example" customModuleProvider="target">
+                                <rect key="frame" x="55" y="215" width="265" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="1GC-BP-R3m"/>
+                                    <constraint firstAttribute="height" constant="41" id="sZv-ur-Vwb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Ui-of-66m" customClass="ProgressBar" customModule="ProgressBar_Example" customModuleProvider="target">
+                                <rect key="frame" x="55" y="264" width="265" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="NLa-qp-amk"/>
+                                    <constraint firstAttribute="width" constant="265" id="dFF-U8-aUE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYy-W9-Rc6" customClass="ProgressBar" customModule="ProgressBar_Example" customModuleProvider="target">
+                                <rect key="frame" x="55" y="313" width="265" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Ubl-bg-82r"/>
+                                    <constraint firstAttribute="width" constant="265" id="ycX-Yq-qhr"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUJ-lN-A9y" customClass="ProgressBar" customModule="ProgressBar_Example" customModuleProvider="target">
+                                <rect key="frame" x="61" y="362" width="265" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Tg3-HY-fs6"/>
+                                    <constraint firstAttribute="width" constant="265" id="W22-Cc-we7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APd-0T-aTz" customClass="ProgressBar" customModule="ProgressBar_Example" customModuleProvider="target">
+                                <rect key="frame" x="55" y="411" width="265" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="BG2-tl-kLk"/>
+                                    <constraint firstAttribute="height" constant="41" id="Mvx-VJ-eVA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wYy-W9-Rc6" firstAttribute="top" secondItem="5Ui-of-66m" secondAttribute="bottom" constant="8" id="0wf-sc-4h0"/>
+                            <constraint firstItem="5Ui-of-66m" firstAttribute="top" secondItem="gwy-ep-oBR" secondAttribute="bottom" constant="8" id="7U2-iU-RUK"/>
+                            <constraint firstItem="APd-0T-aTz" firstAttribute="top" secondItem="HUJ-lN-A9y" secondAttribute="bottom" constant="8" id="96W-v4-hMJ"/>
+                            <constraint firstItem="HUJ-lN-A9y" firstAttribute="top" secondItem="wYy-W9-Rc6" secondAttribute="bottom" constant="8" id="DBO-5H-Hvv"/>
+                            <constraint firstItem="wYy-W9-Rc6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DOq-pS-z6b"/>
+                            <constraint firstItem="gwy-ep-oBR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LO8-hR-bpj"/>
+                            <constraint firstItem="APd-0T-aTz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MXM-CF-6sr"/>
+                            <constraint firstItem="wYy-W9-Rc6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PP6-nc-j98"/>
+                            <constraint firstItem="HUJ-lN-A9y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="6" id="WRT-eC-xen"/>
+                            <constraint firstItem="5Ui-of-66m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aKl-1H-dre"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar1" destination="gwy-ep-oBR" id="3RI-FD-NcB"/>
+                        <outlet property="progressBar2" destination="5Ui-of-66m" id="UAi-M3-ZAg"/>
+                        <outlet property="progressBar3" destination="wYy-W9-Rc6" id="4fK-Ea-Idm"/>
+                        <outlet property="progressBar4" destination="HUJ-lN-A9y" id="XoF-Nc-PiJ"/>
+                        <outlet property="progressBar5" destination="APd-0T-aTz" id="dsu-xg-faE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
