@@ -1,11 +1,3 @@
-//
-//  ProgressBar.swift
-//  Evercoin
-//
-//  Created by Zehra Alptekin on 7.08.2017.
-//  Copyright © 2017 Evercoin. All rights reserved.
-//
-
 import UIKit
 
 class ProgressBar: UIView {
