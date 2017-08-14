@@ -1,11 +1,3 @@
-//
-//  ProgressBar_ExampleTests.swift
-//  ProgressBar-ExampleTests
-//
-//  Created by Zehra Alptekin on 14.08.2017.
-//  Copyright © 2017 evercoin. All rights reserved.
-//
-
 import XCTest
 @testable import ProgressBar_Example
 

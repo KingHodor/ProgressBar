@@ -1,11 +1,3 @@
-//
-//  ProgressBar_ExampleUITests.swift
-//  ProgressBar-ExampleUITests
-//
-//  Created by Zehra Alptekin on 14.08.2017.
-//  Copyright © 2017 evercoin. All rights reserved.
-//
-
 import XCTest
 
 class ProgressBar_ExampleUITests: XCTestCase {

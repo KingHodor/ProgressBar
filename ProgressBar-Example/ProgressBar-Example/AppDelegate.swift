@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ProgressBar-Example
-//
-//  Created by Zehra Alptekin on 14.08.2017.
-//  Copyright © 2017 evercoin. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
