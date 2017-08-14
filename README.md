@@ -6,7 +6,7 @@ Evercoin progress bar written in Swift.
 
 ## Demo
 <p align="center" >
-<img src="https://github.com/Everc0in/ProgressBar/blob/master/example.gif" width="270" height="350"/>
+<img src="https://github.com/Everc0in/ProgressBar/blob/master/example.gif" width="270" height="300"/>
 </p>
 
 ## Requirement
