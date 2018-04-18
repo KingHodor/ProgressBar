@@ -21,3 +21,7 @@ Evercoin progress bar written in Swift.
 // animated ProgressBar
 self.progressBar1.startLoading()
 self.progressBar2.startLoadingReverse()
+
+## Getting help
+
+Please contact ahmet@evercoin.com
