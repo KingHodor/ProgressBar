@@ -1,14 +1,6 @@
-//
-//  ProgressView.swift
-//  jnj
-//
-//  Created by Zehra Alptekin on 12/13/18.
-//  Copyright © 2018 Evercoin. All rights reserved.
-//
-
 import UIKit
 
-class ProgressView: UIView {
+class ProgressView1: UIView {
     
     public var value:Int = 0 {
         didSet {
